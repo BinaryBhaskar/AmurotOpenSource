@@ -6,7 +6,7 @@
 
 ## What is this project?
 
-**AmurotOpenSource** is a practice environment designed to teach beginners how to contribute to real open source projects using Git and GitHub.
+**AmurotOpenSource** is a practice environment designed to teach the Amurot Team how to learn and to contribute to real open source projects using Git and GitHub.
 
 Instead of reading theory, you contribute here — fixing bugs, creating your own page, writing documentation, and collaborating with others through issues and pull requests.
 
