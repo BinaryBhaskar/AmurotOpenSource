@@ -66,6 +66,16 @@ code {
   top: 0;
   z-index: "100";
 }
+.dark-mode-toggle {
+  background-color: transparent;
+  border: none;
+  color: #cccccc;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: color 0.2s;
+
+}
+
 
 .nav-brand a {
   font-size: 1.3rem;
@@ -118,7 +128,7 @@ code {
   align-items: center;
   justify-content: center;
   text-align: center;
-  backgrond-color: #f5f4ff;
+  background-color: #f5f4ff;
   padding: 4rem 1.5rem;
 }
 
@@ -156,7 +166,7 @@ code {
 }
 
 .btn-primary:hover {
-  background-color: #5a52e;
+  background-color: #5a52ee;
   text-decoration: none;
 }
 
@@ -336,7 +346,7 @@ code {
 /* --- CTA Block --- */
 .cta-block {
   text-align: center;
-  background-color: #f5f4ff;
+  background-color: ##e0e0e0;
   border-radius: 12px;
   padding: 3rem;
 }

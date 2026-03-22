@@ -21,13 +21,13 @@ function renderContributors() {
 
 function initDarkMode() {
   const btn = document.getElementById('dark-mode-btn');
-  const stored = localStorage.getItem('darkMode');
+  const stored = localStorage.getItem('dark-mode');
 
-  if (stored = 'true') {
+  if (stored === 'true') {
     document.body.classList.add('dark-mode');
   }
 
-  btn.addEventListener('Click', function () {
+  btn.addEventListener('click', function () {
     document.body.classList.toggle('dark-mode');
     const isDark = document.body.classList.contains('dark-mode');
     localStorage.setItem('dark-mode', isDark);
