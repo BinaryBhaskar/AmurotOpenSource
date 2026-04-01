@@ -49,7 +49,7 @@ cd AmurotOpenSource
 Copy the template:
 
 ```bash
-cp -r people/template people/YOUR-USERNAME
+cp -r template people/YOUR-USERNAME
 ```
 
 Edit `people/YOUR-USERNAME/index.html` with your name, bio, and links.
@@ -90,29 +90,31 @@ By contributing to this project you will learn:
 
 ## Project structure
 
-```
+```text
 AmurotOpenSource/
 ├── index.html               # Main homepage (GitHub Pages)
 ├── styles.css               # Global styles
 ├── script.js                # JavaScript for the homepage
 │
+├── template/                # Base contributor template — copy this to get started
+│
 ├── people/                  # Contributor pages
-│   ├── template/            # Base template — copy this to get started
-│   └── bhaskar/             # Example contributor page
+│   ├── index.html           # Contributors directory
+│   ├── ayush/
+│   ├── bhaskar/             # Example contributor page
+│   └── nainabharti/
 │
 ├── docs/                    # Learning documentation
 │   ├── getting-started.md   # Your first contribution walkthrough
 │   ├── git-basics.md        # Git commands reference
-│   └── contributing.md      # Contribution guide (mirrors CONTRIBUTING.md)
+│   ├── contributing.md      # Contribution guide (mirrors CONTRIBUTING.md)
+│   └── labels.md            # Issue labels reference
 │
-├── templates/               # Reusable HTML templates
-│   └── profile-template.html
+├── bugs/                    # Intentional bugs for training tracker
+│   └── bugs.md
 │
-├── .github/                 # GitHub configuration
-│   ├── ISSUE_TEMPLATE/      # Standardized issue forms
-│   ├── PULL_REQUEST_TEMPLATE.md
-│   └── workflows/           # GitHub Actions CI/CD
-│
+├── build-docs.mjs           # Script for building documentation
+├── package.json             # JS/Node dependencies and scripts
 ├── CONTRIBUTING.md          # How to contribute
 ├── LICENSE                  # MIT License
 └── README.md                # This file
@@ -155,9 +157,3 @@ Contributors who create their pages appear on the [live site](https://binarybhas
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## Questions?
-
-Open an [issue](https://github.com/BinaryBhaskar/AmurotOpenSource/issues/new/choose) or start a [discussion](https://github.com/BinaryBhaskar/AmurotOpenSource/discussions). No question is too small.
